@@ -1,3 +1,164 @@
+/* Global container styles */
 .h5p-container {
-  border: 0.1em dashed #ccc;
+  border-radius: 10px; /* Rounded corners */
+  background-color: white; /* White background */
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.05); /* Light shadow */
+  color: white; /* Main text color */
+  border: 2px solid #ccc; /* Global border thickness */
 }
+
+a {
+  color: #9f7f76; /* Link color */
+}
+
+a:hover {
+  color: #ffde5a; /* Hover link color */
+}
+
+/* Global button styles */
+button {
+  background-color: #87bbb5; /* Solid button color */
+  color: white; /* Button text color */
+  border: none;
+  border-radius: 30px; /* Button border radius */
+  text-transform: lowercase; /* Lowercase text */
+  padding: 10px 20px; /* Button padding */
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #6daaa5; /* Darker button on hover */
+}
+
+/* Multiple Choice Styles */
+.h5p-multiple-choice .h5p-answer {
+  border: 2px solid #87bbb5; /* Outline answer */
+  color: white; /* Answer text color */
+  background-color: transparent; /* Transparent background */
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.h5p-multiple-choice .h5p-answer:hover {
+  background-color: #87bbb5; /* Solid background on hover */
+}
+
+.h5p-multiple-choice .h5p-answer-selected {
+  background-color: #ffde5a; /* Solid background when selected */
+  color: black; /* Change text color to black */
+}
+
+/* Fill in the Blanks */
+.h5p-blanks input {
+  border: 2px solid black; /* Outline for line */
+  border-radius: 5px;
+}
+
+.h5p-blanks .h5p-answer {
+  border: 2px solid #87bbb5; /* Outline for answers */
+  color: white; /* Answer text color */
+}
+
+/* Mark the Words */
+.h5p-mark-the-words .h5p-word {
+  color: white; /* Text color */
+  border: 2px solid #87bbb5; /* Outline for unselected words */
+}
+
+.h5p-mark-the-words .h5p-word-selected {
+  background-color: #87bbb5; /* Selected color */
+  border-color: #87bbb5;
+}
+
+/* Interactive Video */
+.h5p-video .controls {
+  background-color: #87bbb5; /* Video controls background */
+}
+
+.h5p-video .controls button {
+  color: black; /* Control icons color */
+}
+
+.h5p-video .controls button:hover {
+  color: white; /* Hover icons color */
+}
+
+/* Interactive button */
+.h5p-video .h5p-interactive-button {
+  background-color: #87bbb5;
+  color: white;
+}
+
+.h5p-video .h5p-interactive-button:hover {
+  background-color: #6daaa5; /* Darker background on hover */
+}
+
+/* Links in video */
+.h5p-video a {
+  color: #87bbb5;
+}
+
+.h5p-video a:hover {
+  color: #6daaa5; /* Darker link on hover */
+}
+
+/* Drag the Words */
+.h5p-drag-text .h5p-dragzone {
+  background-color: #87bbb5; /* Dragzone background */
+  border-radius: 10px; /* Rounded corners */
+  color: white; /* Text color */
+}
+
+/* Flashcards */
+.h5p-flashcards {
+  background-color: #87bbb5; /* Flashcard background */
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.05); /* Small shadow */
+}
+
+/* Presentation Footer */
+.h5p-presentation .h5p-footer {
+  background-color: #87bbb5; /* Footer background */
+  color: #333333; /* Slightly lighter than black text */
+}
+
+.h5p-presentation .h5p-footer:hover {
+  color: white; /* White text on hover */
+}
+
+.h5p-presentation .h5p-footer a {
+  color: #87bbb5; /* Link color */
+}
+
+.h5p-presentation .h5p-footer a:hover {
+  color: #6daaa5; /* Same color on hover */
+}
+
+/* Progress Bar */
+.h5p-progress-bar {
+  background-color: #ffdf5a; /* Background color */
+}
+
+.h5p-progress-bar .progress {
+  background-color: #87bbb5; /* Bar color */
+}
+
+/* Question Set Navigation */
+.h5p-question-set .h5p-progress-dot {
+  width: 15px;
+  height: 15px;
+  border: 2px solid #87bbb5; /* Outlined dot */
+  border-radius: 50%; /* Rounded dots */
+}
+
+.h5p-question-set .h5p-progress-dot:hover {
+  background-color: #87bbb5; /* Solid background on hover */
+}
+
+.h5p-question-set .h5p-progress-dot-answered {
+  background-color: darkgreen; /* Answered question */
+}
+
+.h5p-question-set .h5p-progress-dot-current {
+  background-color: #ffdf5a; /* Current question */
+}
+
